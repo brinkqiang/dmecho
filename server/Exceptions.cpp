@@ -1,6 +1,5 @@
 
 #include "Exceptions.h"
-#include "../../client/src/Exceptions.h"
 
 ServerException::ServerException(std::string message)
         : message(std::move(message)) {
