@@ -6,7 +6,7 @@
 void NumberTask::processClientMessage(const AbstractServerClient &client, std::string message) {
     this->extractNumbers(message);
 
-    this->numbers.sort(std::greater<>());
+    this->numbers.sort(std::greater<int>());
 
     if (this->numbers.empty()) {
         std::cout << "[Numbers] No numbers in user message" << std::endl;
