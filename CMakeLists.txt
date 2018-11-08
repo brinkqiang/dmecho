@@ -27,13 +27,15 @@ ELSEIF (APPLE)
 
     SET(DMOS_NAME "mac") 
 
-    SET( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -pthread" )
+    SET( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread" )
+    SET(CMAKE_CXX_STANDARD 17)
 ELSEIF (UNIX)
     MESSAGE(STATUS "Now is UNIX-like OS")  
  
     SET(DMOS_NAME "lin") 
     
-    SET( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -pthread" )    
+    SET( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread" )
+    SET(CMAKE_CXX_STANDARD 17)
 ENDIF ()
 
 ADD_DEFINITIONS(-DUSE_DMECHO)
