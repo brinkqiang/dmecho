@@ -1,6 +1,3 @@
-//
-// Created by jorgen on 15.10.18.
-//
 
 #include <thread>
 #include <signal.h>
@@ -16,7 +13,7 @@ TCPEchoServer::TCPEchoServer(short port) : AbstractServer(port) {
 }
 
 void TCPEchoServer::start() {
-    // Add an echo task to the server
+    
     this->addServerTask(std::make_shared<EchoTask>(this->serverSocket));
 
     if (listen(this->serverSocket, SOMAXCONN) < 0) {
@@ -59,7 +56,7 @@ void TCPEchoServer::processClient(int clientSocket, sockaddr *clientAddr)
 
         buffer[receivedBytes] = '\0';
 
-        // Process message
+        
         this->processClientMessage(TCPServerClient(clientAddr, clientSocket), std::string(buffer));
     }
 

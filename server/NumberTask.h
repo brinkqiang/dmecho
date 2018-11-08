@@ -1,6 +1,3 @@
-//
-// Created by jorgen on 16.10.18.
-//
 
 #ifndef ECHOAPP_NUMBERTASK_H
 #define ECHOAPP_NUMBERTASK_H

@@ -1,6 +1,3 @@
-//
-// Created by jorgen on 16.10.18.
-//
 
 #ifndef ECHOAPP_EXCEPTIONS_H
 #define ECHOAPP_EXCEPTIONS_H

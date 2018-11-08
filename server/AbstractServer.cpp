@@ -1,8 +1,5 @@
 #include <utility>
 
-//
-// Created by jorgen on 16.10.18.
-//
 
 #include "AbstractServer.h"
 #include "AbstractServerClient.h"

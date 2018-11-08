@@ -1,6 +1,3 @@
-//
-// Created by jorgen on 16.10.18.
-//
 
 #include "NumberTask.h"
 #include <sstream>
@@ -47,7 +44,7 @@ void NumberTask::extractNumbers(std::string message) {
                 this->numbers.push_back(number);
             }
         } catch (const std::exception &e) {
-            // Can't convert to number
+            
             continue;
         }
     }

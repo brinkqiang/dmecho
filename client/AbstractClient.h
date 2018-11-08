@@ -1,6 +1,3 @@
-//
-// Created by jorgen on 16.10.18.
-//
 
 #ifndef ECHOAPP_ABSTRACTCLIENT_H
 #define ECHOAPP_ABSTRACTCLIENT_H

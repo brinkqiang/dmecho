@@ -15,7 +15,7 @@ void startTCPServer(short port) {
         TCPEchoServer tcpServer(port);
         tcpServer.initialize();
 
-        // Add numbers task
+        
         tcpServer.addServerTask(std::make_shared<NumberTask>());
 
         std::cout << "Starting the TCP server on " << port << "..." << std::endl;
@@ -35,7 +35,7 @@ void startUDPServer(short port) {
         UDPEchoServer udpServer(port);
         udpServer.initialize();
 
-        // Add numbers task
+        
         udpServer.addServerTask(std::make_shared<NumberTask>());
 
         std::cout << "Starting the UDP server on " << port << "..." << std::endl;

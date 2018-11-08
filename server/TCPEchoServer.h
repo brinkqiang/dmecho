@@ -1,6 +1,3 @@
-//
-// Created by jorgen on 15.10.18.
-//
 
 #ifndef ECHOAPP_TCPECHOSERVER_H
 #define ECHOAPP_TCPECHOSERVER_H
@@ -11,17 +8,13 @@
 
 #include <string>
 
-/**
- * Single thread. Blocking echo server.
- */
+
 class TCPEchoServer : public AbstractServer {
 
 public:
     explicit TCPEchoServer(short port);
 
-    /**
-     * Start listening for incoming connections
-     */
+    
     void start() override;
 
 

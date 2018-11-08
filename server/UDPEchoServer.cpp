@@ -1,6 +1,3 @@
-//
-// Created by jorgen on 16.10.18.
-//
 
 #include "UDPEchoServer.h"
 #include "UDPServerClient.h"
@@ -26,10 +23,10 @@ int UDPEchoServer::createServerSocket() {
 }
 
 void UDPEchoServer::start() {
-    // Add an echo task to the server
+    
     this->addServerTask(std::make_shared<EchoTask>(this->serverSocket));
 
-    // socket address used to store client address
+    
     sockaddr_in clientAddress {};
     socklen_t addressLength = sizeof(clientAddress);
     char buffer[Sockets::getMaxBufferLength() + 1];

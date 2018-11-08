@@ -1,6 +1,3 @@
-//
-// Created by jorgen on 16.10.18.
-//
 
 #include "UDPClient.h"
 #include "Exceptions.h"
@@ -17,7 +14,7 @@ void UDPClient::sendMessage(std::string message) {
 }
 
 void UDPClient::connect() {
-    // Do nothing
+    
 }
 
 int UDPClient::createClientSocket() {

@@ -1,6 +1,3 @@
-//
-// Created by jorgen on 16.10.18.
-//
 
 #ifndef ECHOAPP_TCPSERVERCLIENT_H
 #define ECHOAPP_TCPSERVERCLIENT_H

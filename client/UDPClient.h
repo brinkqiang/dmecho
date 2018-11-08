@@ -1,6 +1,3 @@
-//
-// Created by jorgen on 16.10.18.
-//
 
 #ifndef ECHOAPP_UDPCLIENT_H
 #define ECHOAPP_UDPCLIENT_H

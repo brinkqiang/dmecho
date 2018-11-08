@@ -1,6 +1,3 @@
-//
-// Created by jorgen on 16.10.18.
-//
 
 #include "Exceptions.h"
 #include "../../client/src/Exceptions.h"

@@ -1,8 +1,5 @@
 #include <utility>
 
-//
-// Created by jorgen on 16.10.18.
-//
 
 #ifndef ECHOAPP_CLIENT_EXCEPTIONS_H
 #define ECHOAPP_CLIENT_EXCEPTIONS_H
